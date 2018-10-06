@@ -9,5 +9,4 @@ export class TrackService {
   }
 }
 
-// Export a singleton instance in the global namespace
 export const talkService = new TrackService();
