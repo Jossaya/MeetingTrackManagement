@@ -5,7 +5,7 @@ const api = 'https://localhost:5001/api';
 export class TrackService {
 
   public getTracks() {
-    return axios.get<MeetingViewModel>(`${api}/meetingtrack`);
+    return axios.get<MeetingViewModel>(`${api}/meeting`);
   }
 }
 
